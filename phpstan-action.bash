@@ -25,7 +25,6 @@ else
 	phar_path="${GITHUB_WORKSPACE}/$ACTION_PHPSTAN_PATH"
 fi
 
-// chmod +x "$phar_path"
 command_string=("phpstan")
 
 if [ -n "$ACTION_COMMAND" ]
